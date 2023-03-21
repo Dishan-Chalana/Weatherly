@@ -7,16 +7,17 @@ const getGeo = (location) => {
         axios.get(url)
             .then(function (response) {
                 // handle success
-
                 resolve({
-                    
+                    name:response.data[0].name,
                     lat: response.data[0].lat,
                     lon: response.data[0].lon
                 });
                 //console.log(response.data.weather[0].description);
             })
+            
             .catch(function (error) {
-                reject({ error: 'Failed to find location' });
+                // handle error
+                reject({ error: 'Failed to find location' })
             });
     });
 }
