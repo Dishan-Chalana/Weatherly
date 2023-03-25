@@ -11,7 +11,7 @@ wForm.addEventListener('submit', (e) => {
     e.preventDefault()
     console.log("submitted")
 
-    const address = search.value
+    const address = searchBox.value
     loc.textContent = "Loading ..."
     weather.textContent = ""
 

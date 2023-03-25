@@ -1,15 +1,37 @@
 <html lang="en">
 <head>
     <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
-
-<body>
-    <h2>Wetherly index file</h2>
+<body class="welcome">
+    
     <p>
         {{>navigation}}
     </p>
+    <h1 class="welcomeTxt">
+        Start<br>
+        With<br>
+        <font color="#FFFFF">Weather</font>
+        <font id="backspace" color="#c715f3">ly</font>
+    </h1>
+
+    <p class="des">local and national weather monitoring website</p>
+
+    <div class="btnGroup">
+         <button class="btn" id="start" onclick="window.location.href='/home';">Let's start</button>
+        <button class="btn" id="about" onclick="window.location.href='/about';">About</button>
+    </div>
     
+
+    <footer>
+        {{>footer}}
+    </footer>
+    
+
+    
+    
+
 
 </body>
 </html>

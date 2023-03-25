@@ -27,6 +27,7 @@ const publicPath = path.join(__dirname, '../public');
 //console.log(publicPath);
 app.use(express.static(publicPath));
 
+//set up routs
 app.get("/", (req, res) => {
     res.render('index');
 });
@@ -55,12 +56,16 @@ app.get("/weather", (req, res) => {
 
 });
 
-app.get('/main', (req, res) => {
-    res.render('main')
+app.get('/home', (req, res) => {
+    res.render('home')
 });
 
-app.get('/help', (req, res) => {
-    res.render('help')
+app.get('/about', (req, res) => {
+    res.render('about')
+});
+
+app.get('/contact_us', (req, res) => {
+    res.render('contact_us')
 });
 
 app.get("*", (req, res) => {

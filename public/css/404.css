@@ -1,0 +1,20 @@
+.errorMain {
+
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.errorId {
+    font-size: 120px;
+    margin-top: 20px;
+}
+
+.errorDes {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 100;
+
+}

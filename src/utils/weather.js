@@ -1,5 +1,5 @@
 const axios = require('axios');
-const c = 273.15;
+
 //to get the weather of the location
 
 const getWeather = (lat, lon) => {
@@ -16,10 +16,10 @@ const getWeather = (lat, lon) => {
                     humidity: response.data.main.humidity,
                     temp_min: response.data.main.temp_min,
                     temp_max: response.data.main.temp_max,
-                    icon: responce.data.weather[0].icon
+                    
                     
                 });
-                //console.log(response.data);
+               //console.log(response.data);
             })
             .catch(function (error) {
                 //handle error
