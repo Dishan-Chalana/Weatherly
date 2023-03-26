@@ -4,12 +4,12 @@ footer{
     justify-content: center;
     align-items: center;
     
-    
+        
 }
 
 .social {
     
-    position: fixed;
+    position: absolute;
     text-align: center;
     bottom: 0px;
     width: 100%;

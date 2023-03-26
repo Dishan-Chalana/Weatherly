@@ -1,0 +1,24 @@
+.contactUsTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 50px;
+    color: white;
+
+}
+
+
+.contactSection {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.contactDetails {
+    font-size: 20px;
+    color: white;
+}

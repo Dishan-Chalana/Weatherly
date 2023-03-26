@@ -184,3 +184,29 @@
     justify-content: center;
     flex-direction: column;
 }
+
+.footerEnd{
+    position: relative; 
+    margin-top: 1250px;
+    width: 100%;
+}
+
+.footerAbout{
+    position: relative; 
+    margin-top: 1190px;
+    width: 100%;
+}
+
+.footerHome{
+    position: absolute; 
+    margin-top: 1300px;
+    width: 100%;
+}
+
+.footerContact{
+    position: relative; 
+    margin-top: 1410px;
+    width: 100%;
+}
+
+
